@@ -1,0 +1,49 @@
+#cardWrapper{
+    display:flex;
+    background-color:aquamarine;
+    position: relative;
+
+}
+
+
+#cardButtons{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#topButton{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 50%;
+}
+
+#bottomButton{
+    font-size: 40px;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#topButton:hover{
+    border: solid black 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#bottomButton:hover{
+    border: solid black 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+#topButton:disabled{
+    cursor: not-allowed;
+}
+#bottomButton:disabled{
+    cursor: not-allowed;
+}
+

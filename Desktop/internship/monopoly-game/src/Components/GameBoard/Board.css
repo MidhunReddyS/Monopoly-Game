@@ -1,0 +1,55 @@
+.board {
+    background-color:#141E30;
+    color: white;
+    width:584.4px;
+    height:584.4px;
+    position: relative;
+    margin: 80px 50px;
+    transform: scale(1.2);
+    
+}
+
+.side1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+} 
+
+
+.side2{
+    position: absolute;
+    right: calc(50% - 0.1px);
+    top: calc(50% - 0.1px);
+
+}
+.side3{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.side4{
+    position: absolute;
+    left: calc(50% - 0.1px);
+    bottom: calc(50% - 0.1px);
+
+}
+.middle{
+    width: 424.8px;
+    height: 424.8px;
+    position: absolute;
+    right: 79px;
+    bottom: 79px;
+    /* border: solid black 1.5px; */
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .board{
+        transform: scale(1);
+        position: absolute;
+        right: 0px;
+    }
+}
+
+
+/* BFDBAE */

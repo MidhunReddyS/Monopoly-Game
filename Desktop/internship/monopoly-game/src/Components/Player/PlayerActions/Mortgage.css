@@ -1,0 +1,165 @@
+#popUp{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#popUp::backdrop{
+    background-image: radial-gradient(#0d110f, black);
+    opacity: 0.95;
+}
+#displayContainer{
+    display: flex;
+    flex-direction: column;
+}
+#displayOption{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+#displayTitles{
+    display: flex;
+    justify-content: space-evenly;
+    color: #bbfbd3;
+}
+#displayTitles h1{
+    text-shadow: rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+}
+#vetical-line{
+    border: solid #c2fbd7 1px;
+    height: 470px;
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+}
+#sectionContainer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#rightContainer{
+    /* border: solid white 1px; */
+    width: 750px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    overflow: scroll;
+}
+#rightContainer::-webkit-scrollbar {
+    display: none;
+  }
+#leftContainer{
+    width: 750px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    overflow: scroll;
+}
+#leftContainer::-webkit-scrollbar {
+    display: none;
+}
+#amountBox{
+    width: 200px;
+}
+.positiveChange{
+    color: green;
+    text-shadow: none;
+    
+}
+.negitiveChange{
+    color: rgba(255, 0, 0, 0.736);
+    text-shadow: none;
+    
+}
+#optionButton{
+    /* margin-left: 5px;
+    background-color: #C5FFF8;
+    border: none;
+    border-radius: 25%;
+    padding: 15px;
+    font-size: medium; */
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 5px;
+}
+#optionButton:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+#optionButton:disabled{
+    background-color: gray;
+    color: black;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+#tileButton{
+    padding: 0;
+    border: none;
+}
+#tileButton:hover{
+    transform: scale(1.02);
+    opacity: 0.8;
+}
+.selected{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+#tradeSelect{
+    height: 78%;
+    background-color: #FF6768;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+#controlButton {
+  background-color: #FF6768;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-align: center;
+  transition: 200ms;
+  width: 25%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+
+#controlButton:not(:disabled):hover,
+#controlButton:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+#controlButton:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}

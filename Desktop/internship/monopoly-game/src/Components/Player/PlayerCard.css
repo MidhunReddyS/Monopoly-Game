@@ -1,0 +1,120 @@
+#playerCard {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #263859;
+    position: relative;
+    z-index: 20;
+    border-radius: 15px;
+    transition: 500ms;
+}
+
+.playerTurn{
+    border: solid 1px #486186;
+    box-shadow: 0px 0px 20px #5b6d87;
+}
+
+#nameInput{
+    margin: 5px;
+    width:100px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head h2{
+    margin: 5px;
+}
+#playerLogo{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+
+#playerActions{
+    display: flex;
+}
+#group-holder{
+    display: flex;
+    position: relative;
+    background-color: #6B778D;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    height: 250px;
+    padding: 10px 4px 10px 10px;
+    border-radius: 10px;
+}
+#group-holder::-webkit-scrollbar {
+    display: none;
+  }
+#card-grouper1{
+    position: relative;
+    left:0%;
+}
+#card-grouper2{
+    position: relative;
+    left:26%;
+}
+#card-grouper3{
+    position: relative;
+    left:52%;
+}
+#card-grouper4{
+    position: relative;
+    left:78%;
+}
+#card-grouper5{
+    position: relative;
+    left:104%;
+}
+#card-grouper6{
+    position: relative;
+    left:125.5%;
+}
+#card-grouper7{
+    position: relative;
+    left:148.5%;
+}
+#card-grouper8{
+    position: relative;
+    left:171.5%;
+}
+#card-grouper9{
+    position: relative;
+    left:196%;
+}
+#card-grouper10{
+    position: relative;
+    left:220.5%;
+}
+
+
+.propertyCard1{
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}
+.propertyCard2{
+    position: absolute;
+    top:18%;
+    z-index: 2;
+}
+.propertyCard3{
+    position: absolute;
+    top:35%;
+    z-index: 3;
+}
+.propertyCard4{
+    position: absolute;
+    top:52%;
+    z-index: 4;
+}

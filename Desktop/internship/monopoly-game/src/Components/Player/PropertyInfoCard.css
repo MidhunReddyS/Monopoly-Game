@@ -1,0 +1,87 @@
+#PropertyInfoCard{
+    background-color: white;     
+}
+#card-wrapper{
+    border: solid black 1px;
+    margin: 2px;
+}
+.hoverPlayerCard:hover{
+    z-index: 5;
+    transform: scale(1.3);
+}
+
+.folder{
+    width: 80px;
+    height: 120px;
+    font-size: 6.5px;
+}
+.display{
+    width: 128px;
+    height: 192px;
+    font-size: 11px;
+}
+.amenityCard{
+    width: 160px;
+    height: 240px;
+    font-size: 12px;
+}
+#title{
+    margin: 2%;
+    height: 22%;
+    border: solid black 1px;
+    font-size: 80%;
+}
+#title h3{
+    margin: 13% auto;
+}
+
+#PropertyInfoCard h5{
+    margin: 2.5%;
+    font-size: 75%;
+}
+
+#PropertyInfoCard ul{
+    list-style: none;
+    padding: 0;
+    margin: 2.5% 3%;
+}
+
+#PropertyInfoCard li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#PropertyInfoCard span{
+    margin: 0;
+    padding: 0px;
+    font-size: 70%;
+    font-weight: 625;
+}
+#PropertyInfoCard p{
+    margin: 0;
+    padding: 0px;
+    font-size: 70%;
+}
+#rent-list p{
+    padding: 1px 0;
+}
+#rent-list span{
+    padding: 1px 0;
+}
+#conditions{
+    margin: 2.5% auto;
+}
+#description p{
+    font-size: 45%;
+    margin: 2.5% auto;
+}
+#utility p{
+    font-size: 80%;
+    margin: 4%;
+}
+
+.houseHighlight{
+    color: #CF0000;
+    font-size: 120%;
+    text-shadow: 0px 0.5px 0.5px #CF0000;
+}
