@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Monopoly-Game/static/css/main.667a1b6f.css",
-    "main.js": "/Monopoly-Game/static/js/main.d203339b.js",
+    "main.js": "/Monopoly-Game/static/js/main.16f6a157.js",
     "static/media/loading.gif": "/Monopoly-Game/static/media/loading.1271cdb5f664d2f159f9.gif",
     "static/media/mortgage.png": "/Monopoly-Game/static/media/mortgage.05e41638e75e8ae24e0f.png",
     "static/media/question-mark.gif": "/Monopoly-Game/static/media/question-mark.59dabd104e99855071e6.gif",
     "static/media/hotel.png": "/Monopoly-Game/static/media/hotel.d0f4ae14e2fa58aa96db.png",
     "index.html": "/Monopoly-Game/index.html",
     "main.667a1b6f.css.map": "/Monopoly-Game/static/css/main.667a1b6f.css.map",
-    "main.d203339b.js.map": "/Monopoly-Game/static/js/main.d203339b.js.map"
+    "main.16f6a157.js.map": "/Monopoly-Game/static/js/main.16f6a157.js.map"
   },
   "entrypoints": [
     "static/css/main.667a1b6f.css",
-    "static/js/main.d203339b.js"
+    "static/js/main.16f6a157.js"
   ]
 }
